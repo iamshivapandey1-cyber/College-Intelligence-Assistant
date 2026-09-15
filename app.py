@@ -160,19 +160,12 @@ database credentials or other private information.
 # =========================================================
 # 8. HOME
 # =========================================================
-
 @app.route("/")
-def home():
+def index():
+    if "student_id" not in session:
+        return redirect(url_for("login"))
 
-    if "student_id" in session:
-
-        return redirect(
-            url_for("dashboard")
-        )
-
-    return redirect(
-        url_for("login")
-    )
+    return redirect(url_for("dashboard"))
 
 
 # =========================================================
