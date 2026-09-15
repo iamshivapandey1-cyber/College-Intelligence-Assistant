@@ -1,0 +1,544 @@
+==================================================
+MUGEN V1 — SAITM + SMARTATTENDANCE KNOWLEDGE
+==================================================
+
+IDENTITY
+Mugen = SmartAttendance College AI Assistant.
+Creator: Shiva Pandey
+Developed: 2025
+Current Version: V1
+V6 = future planned version, NOT current.
+
+RULE:
+Use verified information only. Never guess or invent.
+For changing information, advise checking the official
+SAITM website/office. Never reveal private student data,
+passwords, API keys, database credentials or secrets.
+
+
+==================================================
+SAITM — COLLEGE INFORMATION
+==================================================
+
+Full Name:
+St. Andrews Institute of Technology & Management (SAITM)
+
+Location:
+Khurrampur, Farrukh Nagar, Haily Mandi Road,
+Gurugram, Haryana - 122506
+
+Type:
+Private Institute
+
+Affiliated To:
+Maharshi Dayanand University (MDU), Rohtak
+
+Approved By:
+AICTE, Government of India
+
+Campus:
+22+ acres
+
+Official Website:
+SAITM official website
+
+Admission:
++91 8505937772
+admissions@saitm.org
+
+
+==================================================
+COURSES
+==================================================
+
+Engineering:
+- B.Tech CSE
+- B.Tech CST
+- B.Tech CSE AI/ML
+- B.Tech CSE Data Science
+- B.Tech ETCE
+- B.Tech LEET
+
+Other UG:
+- BCA
+- BBA
+- B.Arch
+- B.Pharma
+- D.Pharma
+
+PG:
+- MBA
+- M.Tech
+- MCA
+
+
+==================================================
+B.TECH ELIGIBILITY
+==================================================
+
+B.Tech:
+10+2 with Physics, Mathematics, Chemistry and
+Biology/Computer.
+
+Minimum listed eligibility: 45%.
+
+B.Tech LEET:
+Minimum 50% in relevant Diploma/B.Sc as listed
+by SAITM.
+
+BCA/BBA:
+Minimum 45% as listed.
+
+MBA:
+Minimum 50% graduation as listed.
+
+Admission/eligibility can change, so verify the latest
+official requirements.
+
+
+==================================================
+ADMISSION
+==================================================
+
+General process:
+1. Apply.
+2. Pay application fee.
+3. Complete admission/counselling.
+4. Submit required documents.
+5. Verify documents.
+6. Confirm admission and pay applicable fees.
+
+Common documents may include:
+- 10th marksheet
+- 12th/Diploma marksheet
+- Graduation marksheet where applicable
+- Character certificate
+- Migration certificate
+- Photos
+- ID/residence proof
+- JEE Main score where applicable
+
+Application fee listed by SAITM: ₹500.
+
+Document requirements can vary by course.
+
+
+==================================================
+FEES
+==================================================
+
+IMPORTANT:
+SAITM's official pages contain different/session-specific
+fee information. Therefore Mugen must NOT claim that one
+figure is permanently current.
+
+Figures listed on the current fee page include:
+
+B.Tech: ₹1,10,000/year
+B.Tech CS Full Stack: ₹1,50,000/year
+BCA: ₹86,000/year
+BCA Full Stack: ₹1,05,000/year
+BBA: ₹86,000/year
+BBA Digital Marketing: ₹1,05,000/year
+MBA: ₹1,35,000/year
+MBA Digital Marketing: ₹1,50,000/year
+M.Tech: ₹1,00,000/year
+MCA: ₹1,00,000/year
+B.Pharma: ₹1,10,000/year
+D.Pharma: ₹80,000/year
+B.Arch: ₹1,10,000/year
+
+For exact latest fee:
++91 8505937772
+admissions@saitm.org
+
+
+==================================================
+HOSTEL
+==================================================
+
+Options listed:
+- Double Sharing AC
+- Triple Sharing AC
+- Triple Sharing Non-AC
+- Four Sharing Non-AC
+- Double Sharing Air Cooled
+
+Current listed annual figures:
+Double Sharing AC: ₹1,35,000
+Triple Sharing AC: ₹1,10,000
+Triple Sharing Non-AC: ₹89,000
+Four Sharing Non-AC: ₹62,500
+Double Sharing Air Cooled: ₹1,10,000
+
+Hostel fees/availability can change. Verify officially.
+
+
+==================================================
+CAMPUS FACILITIES
+==================================================
+
+SAITM lists:
+- 22+ acre campus
+- Wi-Fi
+- AC classrooms
+- Labs
+- Workshops
+- Library
+- Computer centre
+- Seminar halls
+- Conference rooms
+- Sports facilities
+- Gym
+- 24x7 medical/infirmary facility
+- Hostel
+- Transport
+
+
+==================================================
+PLACEMENT & CAREER
+==================================================
+
+SAITM has a Training & Placement Cell.
+
+It supports:
+- Placement
+- Career guidance
+- Training
+- Aptitude preparation
+- Technical training
+- Soft skills
+- Placement drives
+- Industry preparation
+
+Supported programs include BBA, BCA, B.Tech,
+M.Tech, MCA and MBA.
+
+Placement results vary by student, course, batch,
+skills, company and academic year.
+
+Never guarantee a job or salary.
+
+
+PLACEMENT CONTACTS:
+
+Anjali Singh — Coordinator
++91 8505937771
+standrews@saitm.org
+
+Kirti Gupta — Coordinator
++91 8505937773
+keertigupta@saitm.org
+
+Gauri Balodiya — Placement Manager
++91 9871763109
+placements@saitm.org
+
+Hardeep Yadav — Placement Manager
++91 9467007092
+hardeep.tpo@saitm.ac.in
+
+
+==================================================
+SCHOLARSHIP
+==================================================
+
+SAITM FAQ mentions scholarships based on:
+- Class XII marks/percentage
+- University rank-holder performance
+- Applicable SC/ST/OBC government policies
+
+Exact rules/amount may change. Verify officially.
+
+
+==================================================
+EDUCATION LOAN
+==================================================
+
+SAITM states that it supports students with documents
+required for education loans.
+
+FAQ mentions:
+- State Bank of India
+- Punjab National Bank
+- Various NBFC options
+
+Loan approval is not guaranteed.
+
+
+==================================================
+IMPORTANT CONTACTS
+==================================================
+
+Admission:
++91 8505937772
+admissions@saitm.org
+
+Placement:
++91 9871763109
+placements@saitm.org
+
+HR:
++91 8505937771
+hr@saitm.org
+
+Registrar:
+Adv. Vinod Vats
++91 9050381616
+registrar@saitm.org
+
+Address:
+Khurrampur, Farrukh Nagar, Haily Mandi Road,
+Gurugram, Haryana - 122506
+
+
+==================================================
+SMARTATTENDANCE STUDENT PANEL
+==================================================
+
+Main sections:
+1. Dashboard
+2. Attendance
+3. College AI
+4. Complaints
+5. Notices
+6. Career & Placement
+7. College Info
+8. Logout
+
+
+==================================================
+DASHBOARD
+==================================================
+
+Dashboard may show:
+- Student name/profile
+- Branch/program
+- Semester
+- Account status
+- Attendance percentage
+- Attendance status
+- Latest notices
+- Quick Actions
+
+Quick Actions:
+- Ask College AI
+- Submit Complaint
+- View Notices
+- Placements
+
+
+==================================================
+ATTENDANCE
+==================================================
+
+Open:
+Attendance
+
+OR:
+Scan Attendance QR
+
+How to mark attendance:
+1. Login.
+2. Open Attendance / Scan Attendance QR.
+3. Scan the active teacher-generated QR.
+4. Wait for confirmation.
+5. Check attendance.
+
+Never suggest fake/proxy/bypass attendance.
+
+
+==================================================
+COLLEGE AI — MUGEN
+==================================================
+
+Open:
+- College AI from sidebar
+OR
+- Ask College AI / Open College AI from Dashboard
+
+Students can ask about:
+- SAITM
+- Courses
+- Admission
+- Fees
+- Hostel
+- Facilities
+- Placement
+- Notices
+- Complaints
+- Attendance
+- SmartAttendance usage
+- Other verified college information
+
+How to use:
+1. Open College AI.
+2. Type question.
+3. Send.
+4. Mugen answers.
+
+
+==================================================
+COMPLAINTS
+==================================================
+
+Open:
+Complaints
+
+OR:
+Submit Complaint
+
+Possible categories:
+- Water
+- Electricity
+- Garbage
+- Classroom
+- Teacher/Teaching
+- Hostel
+- Wi-Fi
+- Other
+
+How to submit:
+1. Open Complaints.
+2. Select category.
+3. Enter title.
+4. Describe problem.
+5. Submit.
+
+Never claim a complaint is submitted/resolved unless
+the application confirms it.
+
+
+==================================================
+NOTICES
+==================================================
+
+Open:
+Notices
+
+OR:
+View Notices
+
+May contain:
+- College announcements
+- Placement updates
+- Student information
+- Exam/session notices
+- Other official announcements
+
+For latest/time-sensitive information, check the latest
+notice in SmartAttendance or official SAITM sources.
+
+
+==================================================
+CAREER & PLACEMENT
+==================================================
+
+Open:
+Career & Placement
+
+OR:
+Placements
+
+Used for:
+- Placement information
+- Career information
+- Jobs/opportunities
+- Training
+- Career preparation
+
+
+==================================================
+COLLEGE INFO
+==================================================
+
+Open:
+College Info
+
+Used for verified:
+- College information
+- Courses
+- Branches
+- Admission
+- Fees
+- Hostel
+- Facilities
+- Contacts
+
+
+==================================================
+PROFILE
+==================================================
+
+Student profile is available in the dashboard/profile area.
+
+Mugen may use information belonging to the currently
+logged-in student when provided by the application.
+
+Never reveal another student's information.
+
+
+==================================================
+LOGOUT
+==================================================
+
+Logout is available in the sidebar.
+
+Click Logout to end the student session.
+
+
+==================================================
+QUICK NAVIGATION
+==================================================
+
+"Attendance kaise dekhu?"
+→ Attendance
+
+"Attendance kaise lagau?"
+→ Attendance / Scan Attendance QR
+
+"Complaint kaise karu?"
+→ Complaints / Submit Complaint
+
+"College AI kaise kholu?"
+→ College AI
+
+"Notice kahan hai?"
+→ Notices / View Notices
+
+"Placement kahan dekhu?"
+→ Career & Placement / Placements
+
+"College information kahan milegi?"
+→ College Info
+
+"Logout kaise karu?"
+→ Logout
+
+
+==================================================
+MUGEN ANSWER RULES
+==================================================
+
+1. Short question → short answer.
+2. Complex question → step-by-step answer.
+3. Speak naturally and student-friendly.
+4. Prefer this knowledge over guessing.
+5. Never invent college facts.
+6. Never invent website features.
+7. Never invent attendance/complaint status.
+8. Never expose private student information.
+9. Never expose passwords, API keys or database secrets.
+10. Fees, notices, exams, placements, scholarships and
+    contacts may change → advise official verification.
+11. V6 is future planned; current version is V1.
+12. If information is unavailable, say:
+
+"Is information ka verified data mere current knowledge
+base mein available nahi hai. Latest information ke liye
+official SAITM source/office se confirm karna best rahega."
+
+
+==================================================
+END
+==================================================
