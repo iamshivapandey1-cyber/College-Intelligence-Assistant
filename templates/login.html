@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmartAttendance | Student Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.18), transparent 30%),
+                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.18), transparent 30%),
+                #070b14;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            overflow: hidden;
+        }
+
+        /* Background glow */
+        body::before {
+            content: "";
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            background: rgba(37, 99, 235, 0.12);
+            filter: blur(100px);
+            border-radius: 50%;
+            top: -150px;
+            left: -150px;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            background: rgba(124, 58, 237, 0.12);
+            filter: blur(100px);
+            border-radius: 50%;
+            bottom: -150px;
+            right: -150px;
+        }
+
+        .login-wrapper {
+            width: 100%;
+            max-width: 430px;
+            padding: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .login-card {
+            background: rgba(17, 24, 39, 0.82);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 38px 32px;
+            box-shadow:
+                0 25px 80px rgba(0, 0, 0, 0.55),
+                inset 0 1px 0 rgba(255, 255, 255, 0.04);
+
+            backdrop-filter: blur(18px);
+
+            animation: cardAppear 0.6s ease;
+        }
+
+        @keyframes cardAppear {
+            from {
+                opacity: 0;
+                transform: translateY(25px) scale(0.97);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        /* Logo */
+        .logo {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 20px;
+
+            border-radius: 20px;
+
+            background: linear-gradient(
+                135deg,
+                #2563eb,
+                #4f46e5
+            );
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 30px;
+            font-weight: 800;
+
+            box-shadow:
+                0 10px 35px rgba(37, 99, 235, 0.35);
+        }
+
+        .brand {
+            text-align: center;
+        }
+
+        .brand h1 {
+            font-size: 27px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .brand h1 span {
+            color: #60a5fa;
+        }
+
+        .brand p {
+            margin-top: 8px;
+            color: #8f9bb3;
+            font-size: 14px;
+        }
+
+        /* Form */
+        .form {
+            margin-top: 32px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 9px;
+
+            color: #dbe3f1;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .input-box {
+            position: relative;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            color: #71809c;
+            font-size: 17px;
+
+            pointer-events: none;
+        }
+
+        .input-box input {
+            width: 100%;
+            height: 52px;
+
+            padding: 0 15px 0 45px;
+
+            border-radius: 13px;
+            border: 1px solid #263148;
+
+            outline: none;
+
+            background: rgba(8, 13, 25, 0.8);
+            color: white;
+
+            font-size: 15px;
+
+            transition: 0.25s ease;
+        }
+
+        .input-box input::placeholder {
+            color: #5f6c83;
+        }
+
+        .input-box input:focus {
+            border-color: #3b82f6;
+
+            box-shadow:
+                0 0 0 3px rgba(59, 130, 246, 0.12);
+
+            background: rgba(10, 16, 30, 0.95);
+        }
+
+        /* Login button */
+        .login-btn {
+            width: 100%;
+            height: 53px;
+
+            margin-top: 5px;
+
+            border: none;
+            border-radius: 13px;
+
+            background: linear-gradient(
+                135deg,
+                #2563eb,
+                #4f46e5
+            );
+
+            color: white;
+
+            font-size: 16px;
+            font-weight: 700;
+
+            cursor: pointer;
+
+            transition: 0.25s ease;
+
+            box-shadow:
+                0 10px 30px rgba(37, 99, 235, 0.25);
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+
+            box-shadow:
+                0 15px 35px rgba(37, 99, 235, 0.38);
+        }
+
+        .login-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #66738b;
+            font-size: 12px;
+        }
+
+        .footer span {
+            color: #60a5fa;
+        }
+
+        /* Error message */
+        .error {
+            background: rgba(239, 68, 68, 0.10);
+            border: 1px solid rgba(239, 68, 68, 0.25);
+
+            color: #fca5a5;
+
+            padding: 12px 14px;
+            border-radius: 10px;
+
+            margin-bottom: 20px;
+
+            font-size: 13px;
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+
+            .login-wrapper {
+                padding: 15px;
+            }
+
+            .login-card {
+                padding: 32px 22px;
+                border-radius: 20px;
+            }
+
+            .brand h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-wrapper">
+
+        <div class="login-card">
+
+            <!-- Logo -->
+            <div class="logo">
+                SA
+            </div>
+
+            <!-- Brand -->
+            <div class="brand">
+                <h1>Smart<span>Attendance</span></h1>
+
+                <p>
+                    Student Portal
+                </p>
+            </div>
+
+            <!-- Login Form -->
+            <form class="form" method="POST" action="/login">
+
+                {% if error %}
+                    <div class="error">
+                        {{ error }}
+                    </div>
+                {% endif %}
+
+                <div class="input-group">
+
+                    <label>
+                        Student ID / Roll Number
+                    </label>
+
+                    <div class="input-box">
+
+                        <div class="input-icon">
+                            👤
+                        </div>
+
+                        <input
+                            type="text"
+                            name="student_id"
+                            placeholder="Enter your student ID"
+                            autocomplete="username"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label>
+                        Password
+                    </label>
+
+                    <div class="input-box">
+
+                        <div class="input-icon">
+                            🔒
+                        </div>
+
+                        <input
+                            type="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="login-btn"
+                >
+                    Login →
+                </button>
+
+            </form>
+
+
+            <div class="footer">
+                SmartAttendance V1 ·
+                <span>Student Portal</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
